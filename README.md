@@ -46,6 +46,20 @@ https://www.youtube.com/watch?v=WuBcTJnIuzo
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
 and transactions.market_code="Mark001";`
 
+### MYSQL connection to Tableau
+1. To connect mysql server to tableau, we need to download mysql-connector-odbc driver.
+2. After installing the driver, connect tableau with mysql providing server, port database, username and password details of MySQL user
+![image](https://user-images.githubusercontent.com/89015099/132034486-ef398a95-18e6-4c07-aea0-584282682bfe.png)
+)
+
+#### REVENUE DASHBOARD
+
+<img width="800" alt="Revenue Analysis" src="https://user-images.githubusercontent.com/89015099/132034700-f7cb6c17-0075-431d-9b16-4cde7aa2835b.png">
+
+#### PROFIT ANALYSIS DASHBOARD
+
+<img width="800" alt="Profit Analysis" src="https://user-images.githubusercontent.com/89015099/132034751-f2b269f8-66a9-4874-b499-95d407a2ecf7.png">
+
 
 
 
