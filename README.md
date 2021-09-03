@@ -46,6 +46,11 @@ https://www.youtube.com/watch?v=WuBcTJnIuzo
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
 and transactions.market_code="Mark001";`
 
+
+### Tableau Installation
+
+1. Follow this link https://help.tableau.com/current/desktopdeploy/en-us/desktop_deploy_download_and_install.htm to install Tableau desktop.
+
 ### MYSQL connection to Tableau
 1. To connect mysql server to tableau, we need to download mysql-connector-odbc driver.
 2. After installing the driver, connect tableau with mysql providing server, port database, username and password details of MySQL user
